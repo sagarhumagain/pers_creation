@@ -1,0 +1,57 @@
+
+body {
+    background:#ccc;
+    font: 14px/1.4 'Raleway', 'sans-serif';
+    color: #8a8d94;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+}
+/* Highlight Color */
+::-moz-selection{ background: #0080bd; color:#fff; text-shadow: none; }
+::selection { background:#0080bd; color:#fff; text-shadow: none; }
+/* Device onclick */
+a:link { -webkit-tap-highlight-color: transparent; }
+/* #Links
+================================================== */
+a, a:visited { color: #2B5CB3; text-decoration: none; outline: 0; }
+a:hover, a:focus { color: #045a83; outline: 0;}
+p a, p a:visited { line-height: inherit; }
+p{
+    text-align: center;
+}
+/* #site style
+================================================== */
+h1,h2,h3,h4,h5,h6{
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+h1{
+    font-size: 75px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 14px;
+}
+h6{
+    font-size: 13px;
+}
+.nav-header-main{
+float: left;
+}
+.nav-bar{
+  display: inline-block;
+}
+.header-login{
+  float: right;
+}
